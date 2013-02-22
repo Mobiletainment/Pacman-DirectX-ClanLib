@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DirectionHelper" Collapsed="true">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>sources\DirectionHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FramerateCounter" Collapsed="true">
+    <Position X="8.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAACAAAAAAAAACAAAAAAAAAAAAAAAAAQAABAA=</HashCode>
+      <FileName>sources\FrameRateCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="10" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCQAAIAABCAgAAAAAAAAAAABAgiAAAgBAAAQAIAAAAA=</HashCode>
+      <FileName>sources\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>sources\program.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteManager" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\SpriteManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAIAEAACgAEgiAAAAAAAAACFAQgABBkAACAAAQA=</HashCode>
+      <FileName>sources\Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatableTileFactory" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\EatableTileFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PillTileFactory" Collapsed="true">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>sources\PillTileFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileFactory" Collapsed="true">
+    <Position X="1.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAABAAAEAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>sources\TileFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalkableTileFactory" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\WalkableTileFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallTileFactory" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\WallTileFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Level" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAhAAAAAAAAAAEAAAEADAAgABAEIABARAQBBAAAAA=</HashCode>
+      <FileName>sources\Level.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Blinky">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\Blinky.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Character">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAACaAAAAAiAAACAJAEIAAAQEAAADEgAAEALAA=</HashCode>
+      <FileName>sources\Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Clyde">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\Clyde.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Ghost">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAIAAAQAAQgAAAAgAAAAAAAAAAAAAACAEAAAAAAA=</HashCode>
+      <FileName>sources\Ghost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Inky">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAgAQAAAAAAA=</HashCode>
+      <FileName>sources\Inky.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Pacman">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\Pacman.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KI::Pinky">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAEAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAAIAAAAA=</HashCode>
+      <FileName>sources\Pinky.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="10" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAACACAAAEAAAA=</HashCode>
+      <FileName>sources\Direction.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameMode" Collapsed="true">
+    <Position X="11.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAIAAA=</HashCode>
+      <FileName>sources\GameMode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AutoSwitchMode" Collapsed="true">
+    <Position X="8.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sources\GameMode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

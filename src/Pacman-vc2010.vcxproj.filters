@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{59e609f4-ac3e-4b9e-8055-3d1bcf58983c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{269fbe8f-3a89-45b5-ab82-fce5cdd8a473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tile">
+      <UniqueIdentifier>{b55c8501-6a7a-4aea-a96c-aac9aa8fa885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tile\TileFactory">
+      <UniqueIdentifier>{227de324-7a1d-42c0-a03c-f79a109af350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tile">
+      <UniqueIdentifier>{86367d2b-a4ce-463b-a8b5-58abbb0ed2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tile\TileFactory">
+      <UniqueIdentifier>{64ff0ec1-a42d-4080-bdc0-618306c8ac9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Pacman.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SpriteManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\DirectionHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Character.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\EatableTileFactory.cpp">
+      <Filter>Source Files\Tile\TileFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\PillTileFactory.cpp">
+      <Filter>Source Files\Tile\TileFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\TileFactory.cpp">
+      <Filter>Source Files\Tile\TileFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\WalkableTileFactory.cpp">
+      <Filter>Source Files\Tile\TileFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\WallTileFactory.cpp">
+      <Filter>Source Files\Tile\TileFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Tile.cpp">
+      <Filter>Source Files\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\precomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Blinky.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Ghost.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Pinky.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Clyde.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Inky.cpp">
+      <Filter>Source Files\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sources\precomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Pacman.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\SpriteManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\DirectionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Tile.h">
+      <Filter>Header Files\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\EatableTileFactory.h">
+      <Filter>Header Files\Tile\TileFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\PillTileFactory.h">
+      <Filter>Header Files\Tile\TileFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\WalkableTileFactory.h">
+      <Filter>Header Files\Tile\TileFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\TileFactory.h">
+      <Filter>Header Files\Tile\TileFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\WallTileFactory.h">
+      <Filter>Header Files\Tile\TileFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Character.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Blinky.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Ghost.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\GameMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Pinky.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Clyde.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\Inky.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\FrameRateCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
