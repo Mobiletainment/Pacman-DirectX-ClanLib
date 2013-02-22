@@ -1,0 +1,783 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"\@MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Überschrift 1 Zchn";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;}
+h2
+	{mso-style-link:"Überschrift 2 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	font-style:italic;}
+h3
+	{mso-style-link:"Überschrift 3 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Cambria","serif";}
+h4
+	{mso-style-link:"Überschrift 4 Zchn";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:11.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:22.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Kopfzeile Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Fußzeile Zchn";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.berschrift1Zchn
+	{mso-style-name:"Überschrift 1 Zchn";
+	mso-style-link:"Überschrift 1";
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.berschrift2Zchn
+	{mso-style-name:"Überschrift 2 Zchn";
+	mso-style-link:"Überschrift 2";
+	font-family:"Cambria","serif";
+	font-weight:bold;
+	font-style:italic;}
+span.KopfzeileZchn
+	{mso-style-name:"Kopfzeile Zchn";
+	mso-style-link:Kopfzeile;}
+span.FuzeileZchn
+	{mso-style-name:"Fußzeile Zchn";
+	mso-style-link:Fußzeile;}
+span.berschrift3Zchn
+	{mso-style-name:"Überschrift 3 Zchn";
+	mso-style-link:"Überschrift 3";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+span.berschrift4Zchn
+	{mso-style-name:"Überschrift 4 Zchn";
+	mso-style-link:"Überschrift 4";
+	font-family:"Calibri","sans-serif";
+	font-weight:bold;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=DE-AT link=blue vlink="#954F72">
+
+<div class=WordSection1>
+
+<h1><span lang=DE>Künstliche Intelligenz Übung 1: Pacman</span></h1>
+
+<h2><span lang=DE>Zweck:</span></h2>
+
+<p class=MsoNormal><span lang=DE>In dieser Übung wurde die KI der Geister für
+das Spiel Pacman programmiert. Dies wurde mittels einem <b>reaktiven</b> <b>Steuerungssystem</b>
+realisiert, durch welches die Geister aktiv auf Umwelteinflüsse reagieren
+können.</span></p>
+
+<h2><span lang=DE>Screenshot:</span></h2>
+
+<p class=MsoNormal><img width=721 height=870 id="Screenshot"
+src="Screenshot.jpg"></p>
+
+<h2><span lang=DE>Steuerung:</span></h2>
+
+<p class=MsoNormal><span lang=DE>Pacman kann sowohl über die <b>Pfeiltasten</b>,
+als auch mit den Tasten <b>W (aufwärts), S (abwärts), A (links)</b> und <b>D
+(rechts)</b> gesteuert werden. Es gibt 2 Möglichkeiten zwischen den States der
+reaktiven Steuerung zu wechseln:</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal><span lang=DE>Manuell durch drücken der <b>Space-Taste</b>.</span></li>
+ <li class=MsoNormal><span lang=DE>Automatisches Wechseln der States im 10
+     Sekunden Takt (autoswitching). Dies kann durch drücken der <b>Taste 1</b>
+     aktiviert und durch drücken der <b>Taste 2</b> deaktiviert werden.</span></li>
+</ul>
+
+<h2><span lang=DE>Klassendiagramm:</span></h2>
+
+<h2><span lang=DE style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+font-weight:normal;font-style:normal'>Für die KI der Charaktere ist lediglich dieser
+Auszug des Klassendiagramms von Bedeutung:</span></h2>
+
+<p class=MsoNormal><span lang=DE><img width=821 height=616
+src="Class-Diagram.png"></span></p>
+
+<p class=MsoNormal><span lang=DE>Sowohl Pacman als auch die Geister leiten von
+der Klasse Character ab. Da die Bewegung, sowie die Logik der Geister in vielen
+Punkten gleich ist, leiten diese von der Klasse Ghost ab, die
+Basisfunktionalität zur Verfügung stellt. Zu dieser gehört z.B. die Navigation
+an einen Zielort, oder die Berechnung des Ziels im Patrol und im Frightened
+State. Lediglich das Verhalten im Pursuit Mode muss von jedem Geist selbst
+implementiert werden. Dies wird in der Update-Methode durch Aufruf der abstrakten
+Methode CalculatePursuitTarget() bewirkt.</span></p>
+
+<h2><span lang=DE>Reaktive Steuerung:</span></h2>
+
+<p class=MsoNormal><span lang=DE>Die Geister könnnen sich entweder im Patrol, Pursuit
+oder Frightened State befinden. Zwischen diesen States kann entweder manuell
+durch drücken der Leertaste, oder im Autoswitching Mode (Taste 1) automatisch
+im <b>10 Sekundentakt</b> durchgeschaltet werden. Dabei werden die States
+nacheinander in der Reihenfolge Patrol, Pursuit und Frightened durchlaufen.</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal><span lang=DE>Im <b>Patrol State</b> patroulieren die
+     Geister ihre vorgegebenen Ecke, indem eine Route, die durch 2
+     Kontrollpunkten definiert ist, abgefahren wird. Diese Logik ist für alle
+     Geister gleich und ist daher in der Basisklasse <b><span style='color:
+     #365F91'>Ghost</span></b> implementiert.</span></li>
+ <li class=MsoNormal><span lang=DE>Im <b>Pursuit State</b> verfolgt jeder Geist
+     seine eigene Logik. Ist dieser State aktiv, wird in der Basisklasse Ghost
+     die Abstrakte Methode CalculatePersuitTarget() aufgerufen, die jeder
+     konkrete Geist (Blinky, Pinky, Inky und Clyde) implementiert. Diese
+     berechnet eine Zielposition, zu welcher nach Aufruf der Methode gefahren
+     wird (Navigation zum Ziel übernimmt die Basisklasse Ghost).</span></li>
+ <li class=MsoNormal><span lang=DE>Im <b>Frightened State</b> verfolgen die
+     Geister keine konkrete Strategie, sondern laufen nur verwirrt (random)
+     umher. Dieser State stellt </span></li>
+</ul>
+
+<p class=MsoNormal style='page-break-after:avoid'><img width=784 height=335
+src="Pursuit-Modes.jpg"></p>
+
+<p class=MsoCaption>Abbildung 1: Unterscheidung der States in der Basisklasse
+Ghost</p>
+
+<h2><span lang=DE>Quellcodebeispiele:</span></h2>
+
+<h3><span lang=DE>Implementierung der Pursuit Logiken:</span></h3>
+
+<h4><span lang=DE>Blinky:</span></h4>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>Blinky tries to find the quickest route to Pac-Man's
+exact position.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>void</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> Blinky::CalculatePursuitTarget()  </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       _targetTile = Game::Pacman-&gt;CurrentTile();</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>}</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<h4><span lang=EN-US>Pinky aktive Methode:</span></h4>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>Pinkys target is the place that is four grid spaces ahead
+of Pac-Man in the direction that Pac-Man is facing.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>void</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> Pinky::CalculatePursuitTarget()</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+35.4pt;line-height:normal;text-autospace:none'><span lang=EN-US
+style='font-size:9.5pt;font-family:Consolas;color:green'>//Get the direction
+Pacman is looking</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       Direction direction = Game::Pacman-&gt;CurrentDirection(); </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       CL_Pointf pacmanPos =
+*Game::Pacman-&gt;CurrentTile()-&gt;Position;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>float</span> pointAhead =
+Tile::TileSize * 4; <span style='color:green'>//length of 4 Tiles</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>switch</span> (direction)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       {</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Left:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.x -= pointAhead; <span style='color:green'>//4
+Grid spaces left of pacman</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Right:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.x += pointAhead; <span style='color:green'>//4
+Grid spaces right of pacman</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Top:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.y -= pointAhead; <span style='color:green'>//4
+Grid spaces above pacman</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Bottom:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.y += pointAhead; <span style='color:green'>//4
+Grid spaces below pacman</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       }</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:green'>//create a &quot;Virtual&quot;
+Target Object for the position that Pinky should move to</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       targetPosition = pacmanPos;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       virtualTarget.Position = &amp;targetPosition;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       </span><span style='font-size:9.5pt;font-family:Consolas'>_targetTile
+= &amp;virtualTarget;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>}</span></p>
+
+<h4><span lang=EN-US>Pinky alternative Methode:</span></h4>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.5pt;line-height:115%;
+font-family:Consolas;color:green'>//Alternatively, instead of Virtual Targets,
+we could navigate to real targets, but we have to check if the target is out of
+bounds </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>Direction direction = Game::Pacman-&gt;CurrentDirection();</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>_targetTile = Game::Pacman-&gt;CurrentTile();</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>for</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> (<span style='color:blue'>int</span> i = 0; i &lt; 4;
+++i) <span style='color:green'>//avoid position that do not exist</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+35.4pt;line-height:normal;text-autospace:none'><span lang=EN-US
+style='font-size:9.5pt;font-family:Consolas'>Tile *nextTile =
+_targetTile-&gt;GetNeighbor(direction);</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             </span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:35.4pt;margin-bottom:.0001pt;line-height:normal;text-autospace:
+none'><span lang=EN-US style='font-size:9.5pt;font-family:Consolas;color:blue'>if</span><span
+lang=EN-US style='font-size:9.5pt;font-family:Consolas'> (nextTile == NULL ||
+nextTile == Game::Level-&gt;GetTileForExitLeft() || nextTile ==
+Game::Level-&gt;GetTileForExitRight())</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>                    </span><span style='font-size:9.5pt;font-family:
+Consolas;color:blue'>break</span><span style='font-size:9.5pt;font-family:Consolas'>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span style='font-size:9.5pt;font-family:Consolas'>       </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+35.4pt;line-height:normal;text-autospace:none'><span style='font-size:9.5pt;
+font-family:Consolas'>_targetTile = nextTile;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span style='font-size:9.5pt;font-family:Consolas'>}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h4><span lang=EN-US>Inky:</span></h4>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>//Bashful draws a line from Shadow to the spot two
+squares in front of Pac-Man, and extends that line twice as far</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>void</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> Inky::CalculatePursuitTarget()</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       Direction direction = Game::Pacman-&gt;CurrentDirection();</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       CL_Pointf pacmanPos =
+*Game::Pacman-&gt;CurrentTile()-&gt;Position;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>float</span> pointAhead =
+Tile::TileSize * 2;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>switch</span> (direction)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       {</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Left:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.x -= pointAhead;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Right:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.x += pointAhead;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Top:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.y -= pointAhead;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>case</span> Bottom:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             pacmanPos.y += pointAhead;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             <span style='color:blue'>break</span>;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       }</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       CL_Pointf blinkyPos = *Game::Blinky-&gt;CurrentTile()-&gt;Position;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       targetPosition = pacmanPos - blinkyPos; <span
+style='color:green'>//length of direction</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       targetPosition *= 2; <span style='color:green'>//twice of
+length</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       targetPosition += blinkyPos;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       virtualTarget.Position = &amp;targetPosition;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       _targetTile = &amp;virtualTarget;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>}</span></p>
+
+<h4><span lang=EN-US>Clyde:</span></h4>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>//Pokey has two basic AIs:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>//one for when he's far from Pac-Man (beyond 8 grid
+spaces): Pokey behaves very much like Blinky, trying to move to Pac-Man's exact
+location</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>//one for when he is near to Pac-Man: Pokey goes to his
+home corner in the bottom left of the maze</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>void</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> Clyde::CalculatePursuitTarget()</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>//calculate how many grid spaces Clyde is away from
+Pacman</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>CL_Pointf pacmanPos = *Game::Pacman-&gt;CurrentTile()-&gt;Position;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>CL_Pointf distance = *<span style='color:blue'>this</span>-&gt;_currentTile-&gt;Position
+- pacmanPos;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>if</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> (distance.x &lt; 0) <span style='color:green'>//we're
+only interested in the distance</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       distance.x *= -1;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>if</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> (distance.y &lt; 0)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       distance.y *= -1;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>//calculate how many grid spaces in horizontal direction</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>int</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> gridSpacesAhead = (<span style='color:blue'>int</span>)(distance.x
+/ Tile::TileSize);</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:green'>//add grid spaces in vertical direction</span><span
+lang=EN-US style='font-size:9.5pt;font-family:Consolas'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>gridSpacesAhead += (<span style='color:blue'>int</span>) (distance.y
+/ Tile::TileSize);</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>if</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> (gridSpacesAhead &gt; 8) <span style='color:green'>//beyond
+8 grid spaces away from Pokey</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       _targetTile = Game::Pacman-&gt;CurrentTile();</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas;color:blue'>else</span><span lang=EN-US style='font-size:9.5pt;
+font-family:Consolas'> <span style='color:green'>//go to the home corner</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>       <span style='color:blue'>if</span> (_targetTile !=
+patrolTiles[0] &amp;&amp; _targetTile != patrolTiles[1])</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>             _targetTile = patrolTiles[0];</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+35.4pt;line-height:normal;text-autospace:none'><span lang=EN-US
+style='font-size:9.5pt;font-family:Consolas;color:blue'>else</span><span
+lang=EN-US style='font-size:9.5pt;font-family:Consolas'> <span
+style='color:blue'>if</span> (_currentTile == _targetTile) <span
+style='color:green'>//toggle next target tile</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-indent:
+35.4pt;line-height:normal;text-autospace:none'><span lang=EN-US
+style='font-size:9.5pt;font-family:Consolas'>{</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>              <span style='color:blue'>if</span> (_targetTile ==
+patrolTiles[0])</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>                    _targetTile = patrolTiles[1];</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span lang=EN-US style='font-size:9.5pt;font-family:
+Consolas'>              </span><span style='font-size:9.5pt;font-family:Consolas;
+color:blue'>else</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span style='font-size:9.5pt;font-family:Consolas'>                    _targetTile
+= patrolTiles[0];          }</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span style='font-size:9.5pt;font-family:Consolas'>       }</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span style='font-size:9.5pt;font-family:Consolas'> }</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal;text-autospace:none'><span style='font-size:9.5pt;font-family:Consolas'>}</span></p>
+
+</div>
+
+</body>
+
+</html>
