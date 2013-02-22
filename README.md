@@ -7,6 +7,12 @@ What is it?
 [Pacman](https://en.wikipedia.org/wiki/Pacman) is an arcade game which greatly offers the chance to explore reactive artificial intelligence.
 If not patroling their home area, the ghosts actively react to Pacman's position and pursue Pacman with distinct strategies.
 
+How to play?
+------------
+* Control Pacman's direction via the arrow keys or with the keys w (forward), s (backward), a (left) and d (right)
+* Switch between Pursuit and Patrol mode with the Space key
+* Enable automatic Pursuit/Patrol mode switching by pressing the key 1. Disable it with 2
+
 Requirements
 ------------
 What you need for compiling:
