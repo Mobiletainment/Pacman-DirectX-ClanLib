@@ -7,6 +7,8 @@ What is it?
 [Pacman](https://en.wikipedia.org/wiki/Pacman) is an arcade game which greatly offers the chance to explore reactive artificial intelligence.
 If not patroling their home area, the ghosts actively react to Pacman's position and pursue Pacman with distinct strategies.
 
+![Screenshot](/docs/Screenshot.jpg?raw=true)
+
 How to play?
 ------------
 * Control Pacman's direction via the arrow keys or with the keys w (forward), s (backward), a (left) and d (right)
