@@ -24,7 +24,7 @@ What you need for compiling:
 
 How to compile
 ------------
-1. Set up ClanLib by following these instructions: http://clanlib.org/wiki/MainDocs:Visual_C%2B%2B_on_Windows
+1. Set up ClanLib by following these instructions: http://clanlib.org/build-environment-windows-msvc.html
 2. Get the source code and open the project in Visual Studio
 3. In the menu bar, click on VIEW and open the PROPERTY MANAGER
 4. In the Property Manager Window, expand the tree and double click "Microsoft.CPP.Win32.user" under "Debug | Win32"
@@ -39,7 +39,7 @@ License
 ------------
 (The MIT License)
 
-Copyright (c) 2012 David Pertiller <david@pertiller.me>
+Copyright (c) 2012 David Pertiller <david@pertiller.net>. Visit: [pertiller.net](https://www.pertiller.net)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
